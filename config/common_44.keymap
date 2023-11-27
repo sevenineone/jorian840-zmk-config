@@ -56,7 +56,7 @@
 //       |      | mrc | msd | mmd | msu |  =  |   | VOLD| END | DOWN| PGDN| PAUS|     |
 //                          |     |     | ADJ |   | ADJ |     |     |
                         bindings = <
-   &trans &trans     &mkp MB3    &mkp PLUS        &mkp MINUS      &kp MULTIPLY     &kp SLASH           &kp C_VOL_UP &kp HOME &kp PSCRN &kp PG_UP &kp SLCK &kp CAPS &trans
+   &trans &trans     &mkp MB3    &mkp PLUS        &mkp MINUS      &kp MULTIPLY     &kp KP_SLASH        &kp C_VOL_UP &kp HOME &kp PSCRN &kp PG_UP &kp SLCK &kp CAPS &trans
           &kp LCTRL  &mkp MB1    &mmv MOVE_LEFT   &mmv MOVE_UP    &mmv MOVE_RIGHT  &kp UNDER           &kp C_MUTE   &kp LEFT &kp UP    &kp RIGHT &kp INS  &mt RCTRL K_APP
           &trans     &mkp MB2    &mwh SCROLL_DOWN &mmv MOVE_DOWN  &mwh SCROLL_UP   &kp EQUAL           &kp C_VOL_DN &kp END  &kp DOWN  &kp PG_DN &kp PAUSE_BREAK &trans
                                                            &trans &trans &lt ADJ RET   &lt ADJ ESC &trans &trans
